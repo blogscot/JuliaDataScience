@@ -2475,7 +2475,7 @@ Now we can start adding packages to our project environment with the **`add` com
 ```
 
 From the `add` output, we can see that Julia automatically creates _both_ the `Project.toml` and `Manifest.toml` files.
-In the `Project.toml`, it adds a new package to the proejct environment package list.
+In the `Project.toml`, it adds a new package to the project environment package list.
 Here are the contents of the `Project.toml`:
 
 ```toml
@@ -2519,7 +2519,7 @@ version = "5.1.1+0"
 ```
 
 The three dots above (`...`) represents truncated output.
-First, the `Manifest.toml` presents us a comment saying that it is machine-generated and discouragin editing it directly.
+First, the `Manifest.toml` presents us a comment saying that it is machine-generated and discouraging editing it directly.
 Then, there are entries for the Julia version (`julia_version`), `Manifest.toml` format version (`manifest_format`),
 and project environment hash (`project_hash`).
 Finally, it proceeds with a TOML array of tables which are the double brackets entries (`[[...]]`).
